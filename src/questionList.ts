@@ -8,4 +8,12 @@ export const questions = [
     estimatedTime: '45 mins',
     concepts: ['useState', 'Event Handling', 'Conditional Rendering'],
   },
+  {
+    id: '2',
+    title: 'Toast',
+    description: 'Create a notificaion toast.',
+    difficulty: 'medium',
+    estimatedTime: '45 mins',
+    concepts: ['useState', 'Event Handling', 'Conditional Rendering'],
+  },
 ];

@@ -8,7 +8,6 @@ import {
   Check,
   X,
 } from 'lucide-react';
-import Header from '../../Header';
 
 interface Todo {
   id: number;
@@ -88,9 +87,7 @@ const TodoApp = () => {
   return (
     <div className='min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100'>
       <div className='container mx-auto px-4 py-8 max-w-2xl'>
-        {/* Header */}
-
-        <Header />
+        <h1 className='text-lg'>Todo App</h1>
         {/* Stats */}
         <div className='grid grid-cols-3 gap-4 mb-6'>
           <div className='bg-white rounded-lg p-4 text-center shadow-sm border'>
