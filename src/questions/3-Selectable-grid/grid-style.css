@@ -1,0 +1,25 @@
+.grid-app-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-grid {
+  display: grid;
+  grid-template-columns: repeat(var(--cols), 50px);
+  grid-template-rows: repeat(var(--rows), 50px);
+  user-select: none;
+}
+
+.custom-box {
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.selected-box {
+  background-color: antiquewhite;
+}

@@ -13,7 +13,7 @@ export type ToastType = {
 const NotificationToast = () => {
   const [toasts, setToasts] = useState<ToastType[]>([]);
   const timerRef = useRef({});
-  console.log(timerRef);
+
   const handleRemove = (id: number) => {
     setToasts((prev: ToastType[]) => {
       const reducedList = prev.filter((item) => item.id !== id);

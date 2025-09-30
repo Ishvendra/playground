@@ -14,6 +14,14 @@ export const questions = [
     description: 'Create a notificaion toast.',
     difficulty: 'medium',
     estimatedTime: '45 mins',
-    concepts: ['useState', 'Event Handling', 'Conditional Rendering'],
+    concepts: ['useRef', 'setTimeout', 'Cleanup functions'],
+  },
+  {
+    id: '3',
+    title: 'Selectable Grid',
+    description: 'Create a Selectable Grid.',
+    difficulty: 'medium',
+    estimatedTime: '45 mins',
+    concepts: ['useState'],
   },
 ];

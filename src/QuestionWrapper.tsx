@@ -1,6 +1,7 @@
 import { useNavigate, useParams } from 'react-router-dom';
 import TodoApp from './questions/1-TodoApp/TodoApp';
 import NotificationToast from './questions/2-Toast/NotificationToast';
+import SelectableGrid from './questions/3-Selectable-grid/SelectableGird';
 import { ArrowLeft } from 'lucide-react';
 
 const QuestionWrapper = () => {
@@ -11,6 +12,7 @@ const QuestionWrapper = () => {
   const components: Record<string, React.ComponentType> = {
     '1': TodoApp,
     '2': NotificationToast,
+    '3': SelectableGrid,
   };
 
   const Component = questionId ? components[questionId] : undefined;
